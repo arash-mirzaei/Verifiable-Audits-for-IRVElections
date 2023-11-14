@@ -1,5 +1,5 @@
 # Verifiable-Audits-for-IRVElections
-Install gmp:
+## Install gmp
 
 Download the latest version of gmp from https://gmplib.org/ or run the following command for version 6.3.0:
 ```
@@ -18,7 +18,7 @@ And you can install (under /usr/local by default) with
 sudo make install
 cd ..
 ```
-Install mpfr:
+## Install mpfr
 
 download latest version of mpfr from https://www.mpfr.org/mpfr-current/#download or run the following command for version 4.2.1:
 ```
@@ -31,7 +31,7 @@ make check
 sudo make install
 cd ..
 ```
-Install FLINT 2.9 (It must be version 2.9):
+## Install FLINT 2.9 (It must be version 2.9)
 ```
 git clone -b flint-2.9 --single-branch https://github.com/flintlib/flint.git
 cd flint
@@ -48,12 +48,12 @@ We also recommend that you check that the library works as it should through mak
 sudo make install
 cd ..
 ```
-Other dependencies:
+## Other dependencies
 ```
 sudo apt-get install libgmp-dev
 sudo apt-get install libmpc-dev
 ```
-mixnet:
+## Mixnet
 ```
 git clone https://github.com/dfaranha/lattice-verifiable-mixnet.git
 cd lattice-verifiable-mixnet
