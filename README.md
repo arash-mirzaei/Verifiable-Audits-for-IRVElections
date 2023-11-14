@@ -35,16 +35,9 @@ cd ..
 ```
 git clone -b flint-2.9 --single-branch https://github.com/flintlib/flint.git
 cd flint
-./configure --disable-static
-make -j N
-```
-where N is the number of jobs number allowed to run parallel. Typically, the fastest way to build is to let N be the number of threads your CPU plus one, which can be obtained in Bash through 
-```
-echo $(expr $(nproc) + 1)
-```
-
-We also recommend that you check that the library works as it should through make check, or make -j N check for a parallel check, before installing.
-```
+./configure
+make
+make check
 sudo make install
 cd ..
 ```
