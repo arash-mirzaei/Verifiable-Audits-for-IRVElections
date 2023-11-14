@@ -1,5 +1,7 @@
 # Verifiable-Audits-for-IRVElections
 Install gmp:
+
+Download the latest version of gmp from https://gmplib.org/ or run the following command for version 6.3.0:
 ```
 $ wget https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz
 $ tar -xf gmp-6.3.0.tar.xz
@@ -18,7 +20,7 @@ $ cd ..
 ```
 Install mpfr:
 
-download latest version of mpfr from https://www.mpfr.org/mpfr-current/#download or run the following command:
+download latest version of mpfr from https://www.mpfr.org/mpfr-current/#download or run the following command for version 4.2.1:
 ```
 $ wget https://www.mpfr.org/mpfr-current/mpfr-4.2.1.tar.xz
 $ tar -xf mpfr-4.2.1.tar.xz
@@ -29,7 +31,7 @@ $ make check
 $ sudo make install
 $ cd ..
 ```
-Install FLINT 2.9:
+Install FLINT 2.9 (It must be version 2.9):
 ```
 $ git clone -b flint-2.9 --single-branch https://github.com/flintlib/flint.git
 $ cd flint
