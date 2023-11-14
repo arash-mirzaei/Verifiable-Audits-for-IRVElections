@@ -8,16 +8,14 @@ $ ./configure
 $ make
 ```
 Some self-tests can be run with
-
+```
 $ make check
-
+```
 And you can install (under /usr/local by default) with
-
+```
 $ sudo make install
-
 $ cd ..
-
-
+```
 Install mpfr:
 
 download latest version of mpfr from https://www.mpfr.org/mpfr-current/#download or run the following command:
