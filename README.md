@@ -1,15 +1,12 @@
 # Verifiable-Audits-for-IRVElections
 Install gmp:
-
-> $ wget https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz
-> $ tar -xf gmp-6.3.0.tar.xz
-
+```
+$ wget https://gmplib.org/download/gmp/gmp-6.3.0.tar.xz
+$ tar -xf gmp-6.3.0.tar.xz
 $ cd gmp-6.3.0/
-
 $ ./configure
-
 $ make
-
+```
 Some self-tests can be run with
 
 $ make check
