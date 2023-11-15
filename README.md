@@ -35,7 +35,7 @@ cd ..
 ```
 git clone -b flint-2.9 --single-branch https://github.com/flintlib/flint.git
 cd flint
-./configure
+./configure //maybe --with-gmp=/usr/local --with-mpfr=/usr/local
 make
 make check
 sudo make install
@@ -43,7 +43,7 @@ cd ..
 ```
 ## Other dependencies
 ```
-sudo apt-get install libgmp-dev
+sudo apt-get install libgmp-dev // maybe should be removed
 sudo apt-get install libmpc-dev
 ```
 ## Mixnet
